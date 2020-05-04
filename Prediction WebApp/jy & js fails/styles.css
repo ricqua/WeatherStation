@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');     /*connect this "Asap" font front fonts.google.com to this style sheet*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-family: Asap, sans-serif;
+    color: white;    
+}
+
+body {
+    /* https://cssgradient.io/gradient-backgrounds/ */
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #485563, #29323c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #485563, #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+}
+
+body > div > p >input{
+    color: black;
+}
+#submitButton{
+    color: black;
+    padding: 2px 3px;
+}
