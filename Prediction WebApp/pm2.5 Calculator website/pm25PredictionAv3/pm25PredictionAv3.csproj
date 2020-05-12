@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\pm25mlmodel1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\pm25mlmodelasp - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\pm25PredictionAv3 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
