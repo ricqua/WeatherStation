@@ -60,12 +60,39 @@ namespace pm25PredictionAv3
         protected global::System.Web.UI.WebControls.Button buttonPredict;
 
         /// <summary>
-        /// labelResults control.
+        /// labelResults_temp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label labelResults;
+        protected global::System.Web.UI.WebControls.Label labelResults_temp;
+
+        /// <summary>
+        /// labelResults_humidity control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelResults_humidity;
+
+        /// <summary>
+        /// labelResults_co2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelResults_co2;
+
+        /// <summary>
+        /// labelResults_pm25 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelResults_pm25;
     }
 }
