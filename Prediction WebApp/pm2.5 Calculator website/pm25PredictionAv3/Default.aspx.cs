@@ -6,7 +6,8 @@ namespace pm25PredictionAv3
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e){
+        protected void Page_Load(object sender, EventArgs e) {
+            outputdiv.Visible = false;
                    }
 
         protected void ButtonPredict_Click(object sender, EventArgs e){
@@ -27,8 +28,11 @@ namespace pm25PredictionAv3
             labelResults_temp.Text = results["Results"]["output1"][0]["Temperature"].ToString();
             labelResults_humidity.Text = results["Results"]["output1"][0]["Humidity"].ToString();
             labelResults_co2.Text = results["Results"]["output1"][0]["CO2"].ToString();
-            labelResults_pm25.Text = results["Results"]["output1"][0]["Scored Labels"].ToString();
-            
-        }
+
+            decimal a = Math.Round(Convert.ToDecimal(results["Results"]["output1"][0]["Scored Labels"]),0);
+
+            labelResults_pm25.Text = a.ToString();
+            outputdiv.Visible = true;
+       }
     } 
 }

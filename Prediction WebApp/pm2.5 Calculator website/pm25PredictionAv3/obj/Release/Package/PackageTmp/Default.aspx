@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -35,7 +35,7 @@
                         <asp:Button ID="buttonPredict" runat="server" Text="Submit" OnClick="ButtonPredict_Click"/>
                       </form>
 
-                    <div class="weather__info">
+                    <div class="weather__info" id="outputdiv" runat="server">
                         <p class="weather__key">Temperature: <asp:Label ID="labelResults_temp" runat="server" class="weather__value" ></asp:Label> ºC</p>
                         <p class="weather__key">Humidity: <asp:Label ID="labelResults_humidity" runat="server" class="weather__value"></asp:Label> %RH</p>
                         <p class="weather__key">CO2: <asp:Label ID="labelResults_co2" runat="server" class="weather__value"></asp:Label> ppm</p>

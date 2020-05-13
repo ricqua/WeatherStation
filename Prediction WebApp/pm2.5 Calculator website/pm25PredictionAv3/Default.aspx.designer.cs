@@ -60,6 +60,15 @@ namespace pm25PredictionAv3
         protected global::System.Web.UI.WebControls.Button buttonPredict;
 
         /// <summary>
+        /// outputdiv control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl outputdiv;
+
+        /// <summary>
         /// labelResults_temp control.
         /// </summary>
         /// <remarks>
